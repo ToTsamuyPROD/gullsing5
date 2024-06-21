@@ -1,0 +1,475 @@
+body {
+    font-family: Montserrat,sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+  
+  
+  
+  }
+ 
+div{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    margin: 10px auto;
+    position: relative;
+    text-align:center;
+}
+.logo {
+    width: 1100px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  }
+  .logo2 {
+    width: 750px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   position: relative;
+  }
+  .information {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    background: #eee;
+    margin: 10px auto;
+    position: relative;
+    text-align:center;
+    border: 3px solid rgb(34, 27, 49);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 3px #253046;
+  }
+    .informationAboutCompanies {
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 60%;
+      
+      margin: 10px auto;
+      position: relative;
+      text-align:left;
+      margin-right: 23%;
+    }
+    .CompaniesLogo{
+      width: 20%;
+      margin-right: 80%;
+      margin-bottom: -15%;
+    }
+    .productionOfCompanies{
+      font-size: 15px;
+      display: flex;
+      justify-content: left;
+      flex-wrap: wrap;
+      width: 40%;
+      
+      
+      position: relative;
+      text-align:left;
+      margin-right: 25%;
+    }
+
+    
+  
+  .information2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    
+    margin: 10px auto;
+    position: relative;
+    text-align:center;
+    padding: 20px;
+    
+    border: 3px solid rgb(34, 27, 49);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 3px #253046;
+    text-align: left;
+    margin-top: 30px;
+  }
+.choose{
+  margin-left: 30px;
+  float:left; 
+  text-align:left; 
+  font-size: 30px;
+}
+
+/* новое*/
+
+.pushupchoose{ 
+  text-align:left; 
+  font-size: 15px;
+  margin-left: 13%;
+  width: 100%;
+  margin-bottom: -0.01%;
+
+  
+}
+
+.pushupBUY{ 
+  font-size: 17px;
+  margin-right: 15%;
+  white-space: nowrap;
+  margin-bottom: -1%;
+  
+  
+}
+.div-border{
+    
+    height: 6%;
+    width: 100%;
+}
+
+/*конец нового*/
+
+button{
+ border: none; 
+ text-decoration: underline;
+}
+
+
+
+  /* Dropdown Button */
+.dropbtn {
+  
+  margin-left: 30px;
+  float:left; 
+  text-align:left; 
+  font-size: 30px;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  text-align:left;
+  margin-top: 35px;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content2 {
+  text-align:left;
+  margin-top: 35px;
+  display: none;
+  position: absolute;
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content3 {
+  text-align:left;
+  margin-top: 35px;
+  display: none;
+  position: absolute;
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.dropdown:hover .dropdown-content {display: block; background-color: #eee;}
+
+.dropdown:hover .dropdown-content2 {display: block;background-color: #eee;}
+
+.dropdown:hover .dropdown-content3 {display: block;background-color: #eee;}
+
+
+.chooseIncatalog { 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  filter: brightness(20%);
+}
+
+.chooseIncatalog:hover {
+  filter: brightness(60%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.chooseIncatalogForCompanies { 
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  filter: brightness(60%);
+}
+
+.chooseIncatalogForCompanies:hover {
+  filter: brightness(95%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+
+
+
+
+
+
+.dopBTN {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-family: Montserrat,sans-serif;
+  font-weight: 610;
+  width: 145px;
+  height: 35px;
+  font-size: 17px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #ffffff;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  
+}
+
+
+.Link{
+  background-color: #ffba00;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 90px;
+  margin-left: 80px;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center center;
+
+}
+
+.category {
+  right: 155px;
+  margin-top: 40px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  text-align: left;
+}
+
+
+
+
+.smallgems {
+  width: 200px;
+  pointer-events: none;
+  position: absolute;
+  right: 30px;
+}
+.smallgemscount {
+  font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 85px;
+    right: 180px;
+}
+.buyBtn {
+  outline: none;
+  border: none;
+  
+  font-family: Montserrat,sans-serif;
+  font-weight: 610;
+  width: 145px;
+  height: 35px;
+  position: absolute;
+  font-size: 17px;
+  bottom: 21px;
+  right: 170px;
+}
+
+.buyBtn:hover {
+  box-shadow: 0 0 5px 3px rgb(222, 168, 42);
+}
+
+.gemsPriceOne {
+  font-family: Montserrat,sans-serif;
+    font-weight: 660;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 25px;
+    right: 68px;
+    font-size: 23px;
+}
+
+.discountBsFirst {
+  font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none;
+    position: absolute;
+    bottom: 50px;
+    right: 9px;
+    text-decoration: line-through;
+}
+.twogems{
+  top:50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center center;
+  
+}
+
+.twogems:hover {
+transform: scale(1.1) ;
+}
+
+.twogems {
+position: relative;
+display: inline-block;
+}
+.ogran{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+ 
+  margin: 10px auto;
+  position: relative;
+  text-align:center;
+}
+
+
+
+.twogems2{
+  top:50px;
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center center;
+  position: relative;
+display: inline-block;
+}
+
+.twogems2:hover {
+transform: scale(1.1) ;
+}
+.new-order:link{
+  font-size: 20px;
+  border: 3px solid rgb(34, 27, 49);
+  border-radius: 4px;
+  color: #ddd;
+  padding: 5px;
+}
+.order{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color:  #c2c2c2;
+  margin: 10px auto;
+  position: relative;
+  text-align:center;
+  
+}
+img.background {
+  min-height: 100%;
+  min-width: 640px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* Зависит от размера изображения */
+  @media screen and (max-width: 640px){
+	img.bg {
+	  left: 50%;
+	  margin-left: -320px;
+	}
+  }
+}
+.order-img{
+  width: 30%;
+  margin-left: -45%;
+  border-right: rgb(255, 255, 255) 2px solid ;
+}
+a.pressInOrder {
+  margin-left: -15%;
+  margin-top: 25%;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(255, 174, 0);
+  box-shadow: 0 -3px rgb(0, 0, 0) inset;
+  transition: 0.2s;
+} 
+a.pressInOrder:hover { background: rgb(238, 255, 0); }
+a.pressInOrder:active {
+  background: rgb(255, 174, 0);
+  box-shadow: 0 3px rgb(0, 0, 0) inset;
+}
